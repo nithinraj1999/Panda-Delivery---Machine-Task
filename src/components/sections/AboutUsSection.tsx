@@ -4,7 +4,7 @@ const AboutUsSection = () => {
             <div className="h-[700px] w-full flex flex-col w-full">
 
 
-                <div className="h-3/3 w-full bg-orange-500 flex flex-col items-start justify-end px-[150px] pb-8 space-y-4">
+                <div className="h-3/3 w-full bg-orange-500 flex flex-col items-start justify-end px-[150px] pb-8 space-y-4 pt-[120px]">
                     <button className="flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-black font-bold px-6 py-3 w-[161px] text-sm">
                         <svg
                             width="16"
@@ -27,42 +27,150 @@ const AboutUsSection = () => {
                         of Our Achievements
                     </h1>
                 </div>
-                <div className="h-2/3 w-full bg-white flex items-center justify-center px-[150px]">
-                    <p className="text-gray-800 font-semibold">We offer warehousing and fulfilment service for SMEs, integrated efulfilment with complete visibility of your stock movements digitally. Cross border cash on delivery service and cheapest imports rate from China with least delivery lead time.</p>
+                <div className="h-2/3 w-full bg-white flex items-start justify-start px-[150px] pt-6">
+                    <p className="text-[#8F9092] font-md">
+                        We offer warehousing and fulfilment service for SMEs, integrated <br />
+                        efulfilment with complete visibility of your stock movements<br />
+                        digitally. Cross border cash on delivery service and cheapest<br />
+                        imports rate from China with least delivery lead time.
+                    </p>
                 </div>
 
 
-                <div className="absolute left-[50%] top-[25%]">
+
+                <div className="absolute left-[50%] top-[150px]">
                     <img
                         src="/images/containers.jpg"
                         alt="Shipping containers"
                         className="w-[588px] h-[392px] object-cover rounded-xl"
                     />
                 </div>
+                <div className="grid grid-rows-2 grid-cols-4 gap-4 px-[150px]  w-full mt-[100px]">
+                    <div className="bg-white shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                        <img
+                            src="/images/flight.jpg"
+                            alt="Column 1 Image"
+                            className="absolute top-0 left-0 w-full h-full object-cover object-right scale-110"
+                        />
+                    </div>
+                    <div className="bg-[#FFF8F1] shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                        <div className="absolute bottom-4 left-4">
+                            <p className="text-4xl font-bold text-gray-800">
+                                20+ Yrs
+                            </p>
+                        </div>
+
+                        <div className="absolute top-4 left-4 z-10">
+                            <p className="text-lg font-semibold text-gray-800">
+                                Innovative <br />
+                                Logistics
+                            </p>
+                        </div>
+
+                        <div className="absolute top-0 right-0">
+                            <svg width="84" height="102" viewBox="0 0 84 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.9883 102C18.7836 102 0 83.3956 0 60.4641L84 60.4641C83.9766 83.3956 65.193 102 41.9883 102Z" fill="#FFE7CF" />
+                                <path d="M41.9883 60.4643C23.0175 60.4643 7.64911 45.2615 7.64911 26.4951L76.3509 26.4951C76.3275 45.2383 60.959 60.4643 41.9883 60.4643Z" fill="#FFE7CF" />
+                                <path d="M41.9883 26.4719C27.2047 26.4719 15.2281 14.6243 15.2281 0L68.7719 0C68.7486 14.6243 56.7719 26.4719 41.9883 26.4719Z" fill="#FFE7CF" />
+                            </svg>
+                        </div>
+                    </div>
+
+
+                    <div className="bg-white shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                        <img
+                            src="/images/delivery.jpg"
+                            alt="Column 1 Image"
+                            className="absolute top-0 left-0 w-full h-full object-cover object-right scale-110"
+                        />
+                    </div>
+                    <div className="bg-[#F1F6FF] shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                        <div className="absolute bottom-4 left-4">
+                            <p className="text-4xl font-bold text-gray-800">
+                                15+
+                            </p>
+                        </div>
+
+                        <div className="absolute top-4 left-4 z-10">
+                            <p className="text-lg font-semibold text-gray-800">
+
+                                Experts
+                            </p>
+                        </div>
+
+                        <div className="absolute top-0 right-0">
+                            <svg width="84" height="102" viewBox="0 0 84 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.9883 102C18.7836 102 0 83.3956 0 60.4641L84 60.4641C83.9766 83.3956 65.193 102 41.9883 102Z" fill="#D7E5FF" />
+                                <path d="M41.9883 60.4643C23.0175 60.4643 7.64911 45.2615 7.64911 26.4951L76.3509 26.4951C76.3275 45.2383 60.959 60.4643 41.9883 60.4643Z" fill="#D7E5FF" />
+                                <path d="M41.9883 26.4719C27.2047 26.4719 15.2281 14.6243 15.2281 0L68.7719 0C68.7486 14.6243 56.7719 26.4719 41.9883 26.4719Z" fill="#D7E5FF" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div className="bg-[#F1F6FF] shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                        <div className="absolute bottom-4 left-4">
+                            <p className="text-4xl font-bold text-gray-800">
+                                50K+
+                            </p>
+                        </div>
+
+                        <div className="absolute top-4 left-4 z-10">
+                            <p className="text-lg font-semibold text-gray-800">
+                                Happy <br />
+                                Clients
+                            </p>
+                        </div>
+
+                        <div className="absolute top-0 right-0">
+                            <svg width="84" height="102" viewBox="0 0 84 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.9883 102C18.7836 102 0 83.3956 0 60.4641L84 60.4641C83.9766 83.3956 65.193 102 41.9883 102Z" fill="#D7E5FF" />
+                                <path d="M41.9883 60.4643C23.0175 60.4643 7.64911 45.2615 7.64911 26.4951L76.3509 26.4951C76.3275 45.2383 60.959 60.4643 41.9883 60.4643Z" fill="#D7E5FF" />
+                                <path d="M41.9883 26.4719C27.2047 26.4719 15.2281 14.6243 15.2281 0L68.7719 0C68.7486 14.6243 56.7719 26.4719 41.9883 26.4719Z" fill="#D7E5FF" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div className="bg-white shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                        <img
+                            src="/images/women.jpg"
+                            alt="Column 1 Image"
+                            className="absolute top-0 left-0 w-full h-full object-cover object-center"
+                        />
+                    </div>
+
+                    <div className="bg-[#FFF8F1] shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                        <div className="absolute bottom-4 left-4">
+                            <p className="text-4xl font-bold text-gray-800">
+                                2200+
+                            </p>
+                        </div>
+
+                        <div className="absolute top-4 left-4 z-10">
+                            <p className="text-lg font-semibold text-gray-800">
+                                Google <br />
+                                Reviews
+                            </p>
+                        </div>
+
+                        <div className="absolute top-0 right-0">
+                            <svg width="84" height="102" viewBox="0 0 84 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.9883 102C18.7836 102 0 83.3956 0 60.4641L84 60.4641C83.9766 83.3956 65.193 102 41.9883 102Z" fill="#FFE7CF" />
+                                <path d="M41.9883 60.4643C23.0175 60.4643 7.64911 45.2615 7.64911 26.4951L76.3509 26.4951C76.3275 45.2383 60.959 60.4643 41.9883 60.4643Z" fill="#FFE7CF" />
+                                <path d="M41.9883 26.4719C27.2047 26.4719 15.2281 14.6243 15.2281 0L68.7719 0C68.7486 14.6243 56.7719 26.4719 41.9883 26.4719Z" fill="#FFE7CF" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div className="bg-white shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                        <img
+                            src="/images/star.jpg"
+                            alt="Column 1 Image"
+                            className="absolute top-0 left-0 w-full h-full object-cover object-center"
+                        />
+                    </div>
+                </div>
+
             </div>
 
-            <div className="mt-28 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl w-full px-6">
-                {[
-                    { title: 'Innovative Logistics', value: '20+ Yrs', img: '/images/innovative.jpg' },
-                    { title: 'Experts', value: '15+', img: '/images/experts.jpg' },
-                    { title: 'Happy Clients', value: '50K+', img: '/images/clients.jpg' },
-                    { title: 'Google Reviews', value: '2200+', img: '/images/reviews.jpg' },
-                    { title: 'Top Rated', value: '⭐', img: '/images/star.jpg' },
-                ].map((stat, i) => (
-                    <div
-                        key={i}
-                        className="flex flex-col items-center bg-[#F7F8FA] rounded-2xl shadow-md p-4"
-                    >
-                        <img
-                            src={stat.img}
-                            alt={stat.title}
-                            className="w-full h-32 object-cover rounded-xl mb-3"
-                        />
-                        <p className="text-[#003164] text-lg font-semibold">{stat.value}</p>
-                        <span className="text-gray-600 text-sm mt-1 text-center">{stat.title}</span>
-                    </div>
-                ))}
-            </div>
+
         </section>
     )
 }
