@@ -1,5 +1,6 @@
 const AboutUsSection = () => {
     return (
+        
         <section className="relative flex flex-col items-center w-full">
             <div className="h-[700px] w-full flex flex-col w-full">
 
