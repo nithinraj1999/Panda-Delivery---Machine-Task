@@ -2,50 +2,44 @@
 const HeroSection = () => {
     return (
         <div className="h-[800px] bg-[#FFF8F1] flex relative">
-            <div className="flex-1 relative pl-[80px] pt-[100px]">
-                <button
-                    className="absolute gap-[8px] top-[198px] bg-[#F89938] w-[224px] h-[32px] px-[16px] py-[12px] rounded-[100px] flex items-center justify-center text-white font-medium text-[14px]"
-                >
-                    Moving Business Forward
-                </button>
+         <div className="flex-1 flex flex-col justify-center pl-8 pt-24 lg:pt-0">
+  {/* Top button */}
+  <button className="mb-6 bg-[#F89938] w-[224px] h-[44px] rounded-full text-white font-medium text-[14px] flex items-center justify-center">
+    Moving Business Forward
+  </button>
 
-                <h1
-                    className=" absolute top-[250px] w-[620px] h-[216px]  text-[#003164] text-[64px] leading-[72px] font-semibold"
-                >
-                    Your Trusted <br /> Partner for Global<br /> Shipping Solutions
-                </h1>
+  {/* Headline */}
+  <h1 className="text-[#003164] text-[36px] sm:text-[48px] lg:text-[64px] leading-snug sm:leading-tight lg:leading-[72px] font-semibold mb-6 max-w-xl">
+    Your Trusted <br />
+    Partner for Global <br />
+    Shipping Solutions
+  </h1>
 
-                <div className="h-[52px] absolute top-[498px] w-[468px] ">
-                    <p className="text-[#8F9092] text-[16px] leading-[160%] font-normal">
-                        Delivery Panda is a logistics start up based in Dubai, we make <br />
-                        E commerce logistics simplified and economical.
-                    </p>
-                </div>
+  {/* Description */}
+  <p className="text-[#8F9092] text-[16px] leading-[160%] max-w-md mb-6">
+    Delivery Panda is a logistics start up based in Dubai, we make <br />
+    E-commerce logistics simplified and economical.
+  </p>
 
-                <div className="absolute top-[639px] left-[80px] flex justify-between 
-            w-[625px] h-[74px] 
-            p-[12px] pl-[32px] 
-            bg-white   ">
-                    <input
-                        type="text"
-                        placeholder="Enter your parcel number"
-                        className="flex-1 outline-none  font-normal"
-                    />
-                    <button className="flex items-center justify-center bg-[#003164]
-        w-[201px] h-[50px]
-        px-[24px] py-[10px]
-        gap-[10px]
-        text-white rounded">
-                        Track my parcel
-                        <span className="inline-block h-[24px] w-[24px]"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14.43 5.92999L20.5 12L14.43 18.07" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M3.5 12H20.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        </span>
-                    </button>
-                </div>
+  {/* Parcel input */}
+  <div className="flex w-full max-w-[625px] bg-white p-3 rounded shadow">
+    <input
+      type="text"
+      placeholder="Enter your parcel number"
+      className="flex-1 outline-none text-gray-700 px-3 py-2 rounded"
+    />
+    <button className="flex items-center justify-center bg-[#003164] text-white px-6 py-3 rounded ml-3 gap-2">
+      Track my parcel
+      <span className="inline-block h-6 w-6">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M14.43 5.92999L20.5 12L14.43 18.07" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M3.5 12H20.33" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
 
-            </div>
 
             <div className=" relative   ">
                 <div className="absolute top-[46px] right-[80px] w-[113px] h-[187px] z-40">
@@ -68,43 +62,11 @@ const HeroSection = () => {
 
                 <div className="  w-[816.31px]   ">
                     <div className="absolute top-[222.66px] w-full mr-[739px] z-30">
-                        <svg
-                            viewBox="0 0 701 589"
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="w-full h-[587.34px]"
-                            fill="none"
-                        >
-
-                            <path d="M607.831 347.224C611.525 337.392 620.927 330.88 631.429 330.88H779.917C797.523 330.88 809.705 348.47 803.515 364.952L726.662 569.555C722.969 579.387 713.567 585.899 703.064 585.899H554.577C536.971 585.899 524.788 568.309 530.979 551.828L607.831 347.224Z" fill="#56CCF2" />
-                            <line x1="623.532" y1="426.812" x2="565.47" y2="588.142" stroke="url(#paint2_linear_1_3592)" strokeWidth="0.84026" />
-                            <path d="M424.749 207.966C428.379 198.017 437.84 191.397 448.43 191.397H597.107C614.611 191.397 626.787 208.8 620.788 225.244L494.495 571.431C490.865 581.38 481.404 588 470.814 588H322.137C304.633 588 292.457 570.597 298.456 554.153L424.749 207.966Z" fill="#E97F3E" />
-                            <line x1="582.356" y1="192.469" x2="473.039" y2="478.076" stroke="url(#paint3_linear_1_3592)" strokeWidth="0.84026" />
-                            <path d="M84.181 363.17C87.8794 353.348 97.2766 346.845 107.772 346.845H210.189C227.804 346.845 239.987 364.451 233.78 380.936L162.435 570.414C158.737 580.237 149.34 586.74 138.844 586.74H36.4271C18.8125 586.74 6.62914 569.134 12.8362 552.649L84.181 363.17Z" fill="#F2C94C" />
-                            <line x1="110.047" y1="416.736" x2="45.3469" y2="587.807" stroke="url(#paint4_linear_1_3592)" strokeWidth="0.84026" />
-                            <defs>
-                                <linearGradient id="paint0_linear_1_3592" x1="378.957" y1="113.253" x2="378.957" y2="340.123" gradientUnits="userSpaceOnUse">
-                                    <stop stopColor="#3E82E9" stopOpacity="0.1" />
-                                    <stop offset="1" stopColor="#EFF2F8" stopOpacity="0" />
-                                </linearGradient>
-                                <linearGradient id="paint1_linear_1_3592" x1="233.592" y1="197.279" x2="233.592" y2="-29.5911" gradientUnits="userSpaceOnUse">
-                                    <stop stopColor="#3E82E9" stopOpacity="0.1" />
-                                    <stop offset="1" stopColor="#EFF2F8" stopOpacity="0" />
-                                </linearGradient>
-                                <linearGradient id="paint2_linear_1_3592" x1="622.808" y1="426.697" x2="565.263" y2="588.567" gradientUnits="userSpaceOnUse">
-                                    <stop stopColor="white" stopOpacity="0.7" />
-                                    <stop offset="1" stopColor="white" stopOpacity="0" />
-                                </linearGradient>
-                                <linearGradient id="paint3_linear_1_3592" x1="581.596" y1="192.44" x2="474.06" y2="479.352" gradientUnits="userSpaceOnUse">
-                                    <stop stopColor="white" stopOpacity="0.7" />
-                                    <stop offset="1" stopColor="white" stopOpacity="0" />
-                                </linearGradient>
-                                <linearGradient id="paint4_linear_1_3592" x1="109.322" y1="416.617" x2="45.2092" y2="588.289" gradientUnits="userSpaceOnUse">
-                                    <stop stopColor="white" stopOpacity="0.7" />
-                                    <stop offset="1" stopColor="white" stopOpacity="0" />
-                                </linearGradient>
-                            </defs>
-                        </svg>
-
+                        <img
+                            src="/images/pattern-group.png"
+                            alt="Hero Image"
+                            className="w-full h-[587.34px]   "
+                        />
                     </div>
                 </div>
 
