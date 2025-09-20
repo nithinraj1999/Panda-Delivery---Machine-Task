@@ -7,7 +7,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className=" hidden xl:flex justify-between py-[40px] px-[80px] bg-white fixed shadow-[0_0_36px_0_rgba(0,0,0,0.06)] w-full h-[100px] max-width-[1440px] z-50">
+      <nav className=" hidden xl:flex justify-between z-50
+ py-[40px] px-[80px] bg-white fixed shadow-[0_0_36px_0_rgba(0,0,0,0.06)] w-full h-[100px] max-width-[1440px] z-50">
         <div className="flex items-center">
           <Logo />
         </div>
