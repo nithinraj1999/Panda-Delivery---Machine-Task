@@ -1,9 +1,7 @@
 const AboutUsSection = () => {
     return (
         <section className="relative flex flex-col items-center w-full">
-            {/* Two Row Layout */}
             <div className="h-[700px] w-full flex flex-col w-full">
-                {/* Orange Row */}
 
 
                 <div className="h-3/3 w-full bg-orange-500 flex flex-col items-start justify-end px-[150px] pb-8 space-y-4">
@@ -29,13 +27,11 @@ const AboutUsSection = () => {
                         of Our Achievements
                     </h1>
                 </div>
-                {/* White Row */}
                 <div className="h-2/3 w-full bg-white flex items-center justify-center px-[150px]">
-                    <p className="text-gray-800 font-semibold">Row 2 (White)</p>
+                    <p className="text-gray-800 font-semibold">We offer warehousing and fulfilment service for SMEs, integrated efulfilment with complete visibility of your stock movements digitally. Cross border cash on delivery service and cheapest imports rate from China with least delivery lead time.</p>
                 </div>
 
 
-                {/* Overlapping Image */}
                 <div className="absolute left-[50%] top-[25%]">
                     <img
                         src="/images/containers.jpg"
@@ -45,7 +41,6 @@ const AboutUsSection = () => {
                 </div>
             </div>
 
-            {/* Stats grid below */}
             <div className="mt-28 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl w-full px-6">
                 {[
                     { title: 'Innovative Logistics', value: '20+ Yrs', img: '/images/innovative.jpg' },
