@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <nav className="xl:hidden flex justify-between items-center py-4 px-6 bg-white fixed w-full shadow z-50">
+      <nav className="xl:hidden flex justify-between items-center h-[100px] py-4 px-6 bg-white fixed w-full shadow z-50">
         <div className="text-3xl cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
           ☰
         </div>
