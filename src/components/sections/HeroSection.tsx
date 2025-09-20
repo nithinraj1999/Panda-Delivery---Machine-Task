@@ -2,7 +2,7 @@
 const HeroSection = () => {
     return (
         <div className="h-[800px] bg-[#FFF8F1] flex relative">
-         <div className="flex-1 flex flex-col justify-center pl-8 pt-24 lg:pt-0">
+         <div className="flex-1 flex flex-col justify-center pl-[80px] pt-24 lg:pt-0">
   {/* Top button */}
   <button className="mb-6 bg-[#F89938] w-[224px] h-[44px] rounded-full text-white font-medium text-[14px] flex items-center justify-center">
     Moving Business Forward
