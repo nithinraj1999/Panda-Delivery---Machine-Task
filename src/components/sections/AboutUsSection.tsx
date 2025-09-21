@@ -5,8 +5,8 @@ const AboutUsSection = () => {
             <div className=" w-full flex flex-col w-full">
 
 
-                <div className="h-3/3 w-full bg-orange-500 flex flex-col items-start justify-end px-[150px] pb-8 space-y-4 pt-[120px]">
-                    <button className="flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-black font-bold px-6 py-3 w-[161px] text-sm">
+                <div className="h-3/3 w-full font-atypdisplay  bg-orange-500 flex flex-col items-start justify-end px-[150px] pb-8 space-y-4 pt-[120px]">
+                    <button className="flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA]   text-[#F89938]  px-6 py-3 w-[161px] text-sm">
                         <svg
                             width="16"
                             height="17"
@@ -22,14 +22,14 @@ const AboutUsSection = () => {
                         <span>About Us</span>
                     </button>
 
-                    <h1 className="text-white text-[48px] font-bold leading-tight">
+                    <h1 className="text-white text-[48px] font-semibold leading-tight">
                         Tracking Our Growth <br />
                         Through Key Stats <br />
                         of Our Achievements
                     </h1>
                 </div>
                 <div className="h-2/3 w-full bg-white flex items-start justify-start px-[150px] pt-6">
-                    <p className="text-[#8F9092] font-md">
+                    <p className="text-[#8F9092] font-normal text-base">
                         We offer warehousing and fulfilment service for SMEs, integrated <br />
                         efulfilment with complete visibility of your stock movements<br />
                         digitally. Cross border cash on delivery service and cheapest<br />
@@ -56,12 +56,12 @@ const AboutUsSection = () => {
                         />
                     </div>
 
-                    <div className="bg-[#FFF8F1] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <div className="absolute bottom-4 left-4">
-                            <p className="text-4xl font-bold text-gray-800">20+ Yrs</p>
+                    <div className="bg-[#FFF8F1]  shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                        <div className="absolute bottom-4 pl-[29px]">
+                            <p className="text-[45px] font-semibold text-gray-800">20+ Yrs</p>
                         </div>
-                        <div className="absolute top-4 left-4 z-10">
-                            <p className="text-lg font-semibold text-gray-800">
+                        <div className="absolute pt-[26px] pl-[29px] z-10">
+                            <p className="text-[22px] font-normal leading-[27px] text-gray-800">
                                 Innovative <br /> Logistics
                             </p>
                         </div>
@@ -83,11 +83,11 @@ const AboutUsSection = () => {
                     </div>
 
                     <div className="bg-[#F1F6FF] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <div className="absolute bottom-4 left-4">
-                            <p className="text-4xl font-bold text-gray-800">15+</p>
+                        <div className="absolute bottom-4 pl-[29px]">
+                            <p className="text-[45px] font-semibold text-gray-800">15+</p>
                         </div>
-                        <div className="absolute top-4 left-4 z-10">
-                            <p className="text-lg font-semibold text-gray-800">Experts</p>
+                        <div className="absolute pt-[26px] pl-[29px] z-10">
+                            <p className="text-[22px] font-normal text-gray-800">Experts</p>
                         </div>
                         <div className="absolute top-0 right-0">
                             <svg width="84" height="102" viewBox="0 0 84 102" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -99,11 +99,11 @@ const AboutUsSection = () => {
                     </div>
 
                     <div className="bg-[#F1F6FF] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <div className="absolute bottom-4 left-4">
-                            <p className="text-4xl font-bold text-gray-800">50K+</p>
+                        <div className="absolute bottom-4 pl-[29px]">
+                            <p className="text-[45px] font-semibold text-gray-800">50K+</p>
                         </div>
-                        <div className="absolute top-4 left-4 z-10">
-                            <p className="text-lg font-semibold text-gray-800">
+                        <div className="absolute pt-[26px] pl-[29px] z-10">
+                            <p className="text-[22px] font-normal text-gray-800">
                                 Happy <br /> Clients
                             </p>
                         </div>
@@ -125,11 +125,11 @@ const AboutUsSection = () => {
                     </div>
 
                     <div className="bg-[#FFF8F1] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <div className="absolute bottom-4 left-4">
-                            <p className="text-4xl font-bold text-gray-800">2200+</p>
+                        <div className="absolute bottom-4 pl-[29px]">
+                            <p className="text-[45px] font-semibold text-gray-800">2200+</p>
                         </div>
-                        <div className="absolute top-4 left-4 z-10">
-                            <p className="text-lg font-semibold text-gray-800">
+                        <div className="absolute pt-[26px] pl-[29px] z-10">
+                            <p className="text-[22px] font-normal text-gray-800">
                                 Google <br /> Reviews
                             </p>
                         </div>
