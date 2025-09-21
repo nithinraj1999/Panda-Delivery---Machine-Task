@@ -1,7 +1,7 @@
 
 export default function Footer() {
     return (
-        <footer className="bg-[#003164] text-white pt-12 pb-6 px-[80px]">
+        <footer className="bg-[#003164] text-white relative  pt-[68px] px-[80px] h-[375px]">
             <div className="   grid grid-cols-1 md:grid-cols-5 gap-8">
                 <div className="md:col-span-1 space-y-4">
                     <div className="flex items-center gap-2">
@@ -35,8 +35,8 @@ export default function Footer() {
                     </p>
                 </div>
 
-                <div>
-                    <h3 className="font-semibold mb-4">Company</h3>
+                <div >
+                    <h3 className="text-base font-semibold mb-4">Company</h3>
                     <ul className="space-y-2 text-[#6089B5] text-sm">
                         <li><a href="#" className="cursor-pointer">Why Panda</a></li>
                         <li><a href="#" className="cursor-pointer">Services</a></li>
@@ -46,7 +46,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <h3 className="font-semibold mb-4">Our Services</h3>
+                    <h3 className="text-base font-semibold mb-4">Our Services</h3>
                     <ul className="space-y-2 text-[#6089B5] text-sm">
                         <li><a href="#" className="cursor-pointer">E commerce Warehousing</a></li>
                         <li><a href="#" className="cursor-pointer">China Imports</a></li>
@@ -56,7 +56,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <h3 className="font-semibold mb-4">Resources</h3>
+                    <h3 className="text-base font-semibold mb-4">Resources</h3>
                     <ul className="space-y-2 text-[#6089B5] text-sm">
                         <li><a href="#" className="cursor-pointer">Blog</a></li>
                         <li><a href="#" className="cursor-pointer">Project Cargo</a></li>
@@ -66,7 +66,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <h3 className="font-semibold mb-4">Socials</h3>
+                    <h3 className="text-base font-semibold mb-4">Socials</h3>
                     <ul className="space-y-2 text-[#6089B5] text-sm">
                         <li><a href="#" className="cursor-pointer">Facebook</a></li>
                         <li><a href="#" className="cursor-pointer">Instagram</a></li>
@@ -76,8 +76,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            {/* Divider */}
-            <div className="border-t border-white/20 mt-8 pt-4 text-center text-[#6089B5] text-sm">
+            <div className="absolute top-[298px] left-0 w-full border-t border-white/20 h-[46px] pt-4 text-center text-[#6089B5] text-sm">
                 © Copyright Delivery Panda 2024 · Designed By Hoztox Technologies
             </div>
         </footer>
