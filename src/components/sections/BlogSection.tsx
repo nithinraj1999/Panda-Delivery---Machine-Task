@@ -30,7 +30,6 @@ const BlogSection: React.FC = () => {
     return (
         <section className="bg-[#FFF8F1] py-12">
             <div className="w-full mx-auto px-[80px]">
-                {/* Header */}
                 <div className="flex justify-between items-center mb-8">
                     <div>
                         <button className="flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-black font-bold px-6 py-3 gap-[8px] text-sm">

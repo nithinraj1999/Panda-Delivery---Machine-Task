@@ -13,8 +13,7 @@ const CtaSection: React.FC = () => {
                             Experience smooth logistics management with our innovative services
                         </p>
                     </div>
-
-                    <button className="bg-white text-black px-6 py-3 rounded-full font-medium shadow hover:bg-gray-200 transition">
+                    <button className="bg-white text-black w-max max-w-[209px] h-[50px] rounded-full font-medium shadow hover:bg-gray-200 transition px-8 py-3 text-[14px]">
                         Start 14-day Free Trial
                     </button>
                 </div>
