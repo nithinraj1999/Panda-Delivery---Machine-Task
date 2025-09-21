@@ -28,11 +28,11 @@ const blogs = [
 
 const BlogSection: React.FC = () => {
     return (
-        <section className="bg-[#FFF8F1] py-12">
+        <section className="bg-[#FFF8F1] py-12 font-manrope">
             <div className="w-full mx-auto px-[80px]">
                 <div className="flex justify-between items-center mb-8">
                     <div>
-                        <button className="flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-black font-bold px-6 py-3 gap-[8px] text-sm">
+                        <button className="flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-black font-semibold px-6 py-3 gap-[8px] text-sm">
                             <svg
                                 width="16"
                                 height="17"
@@ -48,7 +48,7 @@ const BlogSection: React.FC = () => {
                             <span>Blog</span>
                         </button>
 
-                        <h2 className="text-3xl font-bold text-gray-900">See Our Latest Blogs!</h2>
+                        <h2 className="text-5xl font-semibold text-[#003164]">See Our Latest Blogs!</h2>
                     </div>
                     <button className="flex items-center gap-2 border border-gray-300 px-5 py-2 rounded-md text-sm font-medium cursor-pointer ">
                         View All →
@@ -60,9 +60,9 @@ const BlogSection: React.FC = () => {
                         <div key={blog.id} className=" rounded-lg  overflow-hidden  transition">
                             <img src={blog.image} alt={blog.title} className="w-full h-48 object-cover" />
                             <div className="p-4">
-                                <h3 className="text-lg font-semibold text-gray-900">{blog.title}</h3>
-                                <p className="text-sm text-gray-600 mt-2">{blog.description}</p>
-                                <button className=" mt-4 text-sm font-semibold text-black border-b-1 py-[8px]">
+                                <h3 className="text-[20px] font-semibold text-gray-900">{blog.title}</h3>
+                                <p className="text-sm text-[#0C0D13] mt-2 font-normal">{blog.description}</p>
+                                <button className=" mt-4 text-sm font-semibold text-[#0C0D13] border-b-1 py-[8px]">
                                     READ MORE
                                 </button>
                             </div>
