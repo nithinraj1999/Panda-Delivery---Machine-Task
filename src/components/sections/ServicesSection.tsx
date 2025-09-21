@@ -1,9 +1,9 @@
 const ServicesSection = () => {
 
     return (
-        <div className="p-[80px]">
+        <div className="p-[80px] font-atypdisplay">
             <div className="w-full text-white">
-                <div className="flex flex-col lg:flex-row justify-between gap-14 mb-16">
+                <div className="flex flex-col lg:flex-row justify-between gap-14 mb-16 w-full">
                     <div className="flex-1 flex flex-col items-center">
                         <svg width="76" height="71" viewBox="0 0 76 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M56.0901 6.81242L26.6949 13.5109L3.9383 33.4291L3.52487 33.7879L35.5358 30.8084L56.0901 6.81242Z" fill="#F89938" />
@@ -12,20 +12,20 @@ const ServicesSection = () => {
                         </svg>
                     </div>
 
-                    <div className="flex-1 flex flex-col items-center relative">
-                        <button className="flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-black font-bold px-6 py-3 absolute top-0 w-[161px] text-sm">
+                    <div className="flex-1 flex flex-col items-center relative w-full">
+                        <button className="flex text-sm items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-[#F89938] font-normal px-6 py-3 absolute top-0 w-[161px] text-sm">
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M15 4.14294V8.14294C15 8.27555 14.9474 8.40273 14.8536 8.4965C14.7598 8.59027 14.6326 8.64294 14.5 8.64294C14.3674 8.64294 14.2402 8.59027 14.1465 8.4965C14.0527 8.40273 14 8.27555 14 8.14294V5.34982L8.85378 10.4967C8.80735 10.5432 8.7522 10.5801 8.6915 10.6052C8.63081 10.6304 8.56574 10.6433 8.50003 10.6433C8.43433 10.6433 8.36926 10.6304 8.30856 10.6052C8.24786 10.5801 8.19272 10.5432 8.14628 10.4967L6.00003 8.34982L1.85378 12.4967C1.75996 12.5905 1.63272 12.6432 1.50003 12.6432C1.36735 12.6432 1.2401 12.5905 1.14628 12.4967C1.05246 12.4029 0.999756 12.2756 0.999756 12.1429C0.999756 12.0103 1.05246 11.883 1.14628 11.7892L5.64628 7.28919C5.69272 7.24271 5.74786 7.20583 5.80856 7.18066C5.86926 7.1555 5.93433 7.14255 6.00003 7.14255C6.06574 7.14255 6.13081 7.1555 6.1915 7.18066C6.2522 7.20583 6.30735 7.24271 6.35378 7.28919L8.50003 9.43607L13.2932 4.64294H10.5C10.3674 4.64294 10.2402 4.59027 10.1465 4.4965C10.0527 4.40273 10 4.27555 10 4.14294C10 4.01034 10.0527 3.88316 10.1465 3.78939C10.2402 3.69562 10.3674 3.64294 10.5 3.64294H14.5C14.6326 3.64294 14.7598 3.69562 14.8536 3.78939C14.9474 3.88316 15 4.01034 15 4.14294Z" fill="#F89938" />
                             </svg>
                             <span>Our Services</span>
                         </button>
 
-                        <h1 className="mt-20 text-3xl font-bold text-center text-black">
+                        <h1 className="mt-20 text-5xl font-semibold text-center text-black">
                             Tailored Shipping<br />
-                            Solutions, Global Reach
+                            <span className="whitespace-nowrap">Solutions, Global Reach</span>
                         </h1>
 
-                        <p className="mt-4 text-center text-base text-[#8F9092] line-clamp-2">
+                        <p className="mt-4 text-center font-normal text-base text-[#8F9092] line-clamp-2">
                             Lorem ipsum is a placeholder text commonly used to demonstrate the
                             visual form of a document or a typeface without
                         </p>
@@ -114,6 +114,19 @@ const ServicesSection = () => {
                     </div>
 
                 </div>
+
+            </div>
+            <div className="w-full flex flex-col items-center mt-12">
+                <button className="flex items-center gap-2 py-[10px] px-[24px] text-[18px] font-medium text-white bg-[#003164] rounded-[12px]">
+                    View all services
+                    <span>
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.93 6.49097L21 12.561L14.93 18.631" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M4 12.561H20.83" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+
+                    </span>
+                </button>
 
             </div>
         </div>
