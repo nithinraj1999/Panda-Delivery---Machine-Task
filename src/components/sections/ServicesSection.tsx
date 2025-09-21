@@ -57,7 +57,7 @@ const ServicesSection = () => {
                             <div className="relative flex-1 rounded-[12px] overflow-hidden">
                                 <img src="/images/first.jpg" alt="E commerce Warehousing"
                                     className="w-full h-full object-cover" />
-                                <div className="absolute left-4 bottom-4 bg-[#003164] text-white rounded-md px-4 py-2 text-sm font-medium">
+                                <div className="absolute left-4 bottom-4  text-white rounded-md px-4 py-2 text-sm font-medium">
                                     E commerce Warehousing
                                 </div>
                                 <button className="absolute right-4 bottom-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
@@ -70,7 +70,7 @@ const ServicesSection = () => {
                             <div className="relative flex-[1.5] rounded-[12px] overflow-hidden">
                                 <img src="/images/second.jpg" alt="China Imports"
                                     className="w-full h-full object-cover" />
-                                <div className="absolute left-4 bottom-4 bg-[#003164] text-white rounded-md px-4 py-2 text-sm font-medium">
+                                <div className="absolute left-4 bottom-4  text-white rounded-md px-4 py-2 text-sm font-medium">
                                     China Imports
                                 </div>
                                 <button className="absolute right-4 bottom-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
@@ -85,7 +85,7 @@ const ServicesSection = () => {
                             <div className="relative flex-[1.5] rounded-[12px] overflow-hidden">
                                 <img src="/images/third.jpg" alt="Lastmile Delivery Solutions"
                                     className="w-full h-full object-cover" />
-                                <div className="absolute left-4 bottom-4 bg-[#003164] text-white rounded-md px-4 py-2 text-sm font-medium">
+                                <div className="absolute left-4 bottom-4  text-white rounded-md px-4 py-2 text-sm font-medium">
                                     Lastmile Delivery Solutions
                                 </div>
                                 <button className="absolute right-4 bottom-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
@@ -98,7 +98,7 @@ const ServicesSection = () => {
                             <div className="relative flex-1 rounded-[12px] overflow-hidden">
                                 <img src="/images/fourth.jpg" alt="International Shipping"
                                     className="w-full h-full object-cover" />
-                                <div className="absolute left-4 bottom-4 bg-[#003164] text-white rounded-md px-4 py-2 text-sm font-medium">
+                                <div className="absolute left-4 bottom-4  text-white rounded-md px-4 py-2 text-sm font-medium">
                                     International Shipping
                                 </div>
                                 <button className="absolute right-4 bottom-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
