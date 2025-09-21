@@ -1,5 +1,5 @@
 import React from "react";
-
+import ImageWithFallback from "../Loading/ImageFallBack";
 const CtaSection: React.FC = () => {
     return (
         <section className="bg-[#002855] font-manrope text-white h-[411px] flex pl-[80px]">
@@ -20,7 +20,7 @@ const CtaSection: React.FC = () => {
             </div>
 
             <div className="flex-1 hidden lg:flex items-center justify-center bg-black">
-                <img
+                <ImageWithFallback
                     src="/images/container-cta.jpg"
                     alt="Right Content"
                     className="w-full h-full object-cover"

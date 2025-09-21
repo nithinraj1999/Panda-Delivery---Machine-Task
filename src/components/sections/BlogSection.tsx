@@ -1,4 +1,4 @@
-
+import ImageWithFallback from "../Loading/ImageFallBack";
 const blogs = [
     {
         id: 1,
@@ -58,7 +58,7 @@ const BlogSection: React.FC = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {blogs.map((blog) => (
                         <div key={blog.id} className=" rounded-lg  overflow-hidden  transition">
-                            <img src={blog.image} alt={blog.title} className="w-full h-48 object-cover" />
+                            <ImageWithFallback src={blog.image} alt={blog.title} className="w-full h-48 object-cover" />
                             <div className="p-4">
                                 <h3 className="text-[20px] font-semibold text-gray-900">{blog.title}</h3>
                                 <p className="text-sm text-[#0C0D13] mt-2 font-normal">{blog.description}</p>

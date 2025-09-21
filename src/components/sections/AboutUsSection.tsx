@@ -1,3 +1,4 @@
+import ImageWithFallback from "../Loading/ImageFallBack"
 const AboutUsSection = () => {
     return (
 
@@ -40,7 +41,7 @@ const AboutUsSection = () => {
 
 
                 <div className="absolute left-[50%] top-[150px] hidden lg:block">
-                    <img
+                    <ImageWithFallback
                         src="/images/containers.jpg"
                         alt="Shipping containers"
                         className="w-[588px] h-[392px] object-cover rounded-xl"
@@ -49,7 +50,7 @@ const AboutUsSection = () => {
                 <div className="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 sm:px-8 lg:px-[150px] w-full mt-[100px]">
 
                     <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <img
+                        <ImageWithFallback
                             src="/images/flight.jpg"
                             alt="Column 1 Image"
                             className="absolute top-0 left-0 w-full h-full object-cover object-right scale-110"
@@ -75,7 +76,7 @@ const AboutUsSection = () => {
                     </div>
 
                     <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <img
+                        <ImageWithFallback
                             src="/images/delivery.jpg"
                             alt="Column 3 Image"
                             className="absolute top-0 left-0 w-full h-full object-cover object-right scale-110"
@@ -117,7 +118,7 @@ const AboutUsSection = () => {
                     </div>
 
                     <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <img
+                        <ImageWithFallback
                             src="/images/women.jpg"
                             alt="Column 6 Image"
                             className="absolute top-0 left-0 w-full h-full object-cover object-center"
@@ -143,7 +144,7 @@ const AboutUsSection = () => {
                     </div>
 
                     <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <img
+                        <ImageWithFallback
                             src="/images/star.jpg"
                             alt="Column 8 Image"
                             className="absolute top-0 left-0 w-full h-full object-cover object-center"

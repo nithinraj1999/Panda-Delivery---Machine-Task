@@ -2,10 +2,10 @@ import { useState } from "react";
 
 const ImageWithFallback = ({ src, alt, className }: { src: string; alt: string; className: string }) => {
     const [status, setStatus] = useState("loading");
-    console.log(status);
+    console.log(className);
 
     return (
-        <div className={`relative ${className}`}>
+        <div className={`relative overflow-hidden ${className}`}>
             <img
                 src={status === "error" ? "error" : src}
                 alt={alt}
@@ -13,6 +13,7 @@ const ImageWithFallback = ({ src, alt, className }: { src: string; alt: string; 
                     }`}
                 onLoad={() => setStatus("loaded")}
                 onError={() => setStatus("error")}
+                
             />
 
             {status === "loading" && (
