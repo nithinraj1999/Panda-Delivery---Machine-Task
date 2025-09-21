@@ -1,8 +1,8 @@
 
 export default function Footer() {
     return (
-        <footer className="bg-[#003164] text-white relative  pt-[68px] px-[80px] h-[375px]">
-            <div className="   grid grid-cols-1 md:grid-cols-5 gap-8">
+        <footer className="bg-[#003164] text-white w-full relative min-h-[375px] px-[80px] pt-[68px]">
+            <div className=" grid grid-cols-1 md:grid-cols-5 gap-8">
                 <div className="md:col-span-1 space-y-4">
                     <div className="flex items-center gap-2">
                         <svg width="103" height="48" viewBox="0 0 103 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,9 +76,10 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="absolute top-[298px] left-0 w-full border-t border-white/20 h-[46px] pt-4 text-center text-[#6089B5] text-sm">
-                © Copyright Delivery Panda 2024 · Designed By Hoztox Technologies
-            </div>
+<div className="absolute left-0 w-full border-t border-white/20 h-[46px] pt-4 text-center text-[#6089B5] text-sm
+                md:top-[298px] md:bottom-auto">
+  © Copyright Delivery Panda 2024 · Designed By Hoztox Technologies
+</div>
         </footer>
     );
 }
