@@ -1,5 +1,6 @@
-const ServicesSection = () => {
+import ImageWithFallback from "../Loading/ImageFallBack";
 
+const ServicesSection = () => {
     return (
         <div className="p-[80px] font-atypdisplay">
             <div className="w-full text-white">
@@ -53,81 +54,71 @@ const ServicesSection = () => {
                     </div>
 
                 </div>
-
-                <div className="w-full ">
+                <div className="w-full">
                     <div className="flex w-full h-screen gap-6">
                         <div className="w-[65%] flex flex-col gap-6">
                             <div className="relative flex-1 rounded-[12px] overflow-hidden">
-                                <img src="/images/first.jpg" alt="E commerce Warehousing"
-                                    className="w-full h-full object-cover" />
-                                <div className="absolute left-4 bottom-4  text-white rounded-md px-4 py-2 text-sm font-medium">
+                                <ImageWithFallback
+                                    src="/images/first.jpg"
+                                    alt="E commerce Warehousing"
+                                    className="w-full h-full object-cover"
+                                />
+                                <div className="absolute left-4 bottom-4 text-white rounded-md px-4 py-2 text-sm font-medium">
                                     E commerce Warehousing
                                 </div>
-                                <button className="absolute right-4 bottom-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
-                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M25 8V21C25 21.2652 24.8947 21.5196 24.7071 21.7071C24.5196 21.8946 24.2652 22 24 22C23.7348 22 23.4804 21.8946 23.2929 21.7071C23.1054 21.5196 23 21.2652 23 21V10.4137L8.70751 24.7075C8.51987 24.8951 8.26537 25.0006 8.00001 25.0006C7.73464 25.0006 7.48015 24.8951 7.29251 24.7075C7.10487 24.5199 6.99945 24.2654 6.99945 24C6.99945 23.7346 7.10487 23.4801 7.29251 23.2925L21.5863 9H11C10.7348 9 10.4804 8.89464 10.2929 8.70711C10.1054 8.51957 10 8.26522 10 8C10 7.73478 10.1054 7.48043 10.2929 7.29289C10.4804 7.10536 10.7348 7 11 7H24C24.2652 7 24.5196 7.10536 24.7071 7.29289C24.8947 7.48043 25 7.73478 25 8Z" fill="black" />
-                                    </svg>
-                                </button>
                             </div>
 
                             <div className="relative flex-[1.5] rounded-[12px] overflow-hidden">
-                                <img src="/images/second.jpg" alt="China Imports"
-                                    className="w-full h-full object-cover" />
-                                <div className="absolute left-4 bottom-4  text-white rounded-md px-4 py-2 text-sm font-medium">
+                                <ImageWithFallback
+                                    src="/images/second.jpg"
+                                    alt="China Imports"
+                                    className="w-full h-full object-cover"
+                                />
+                                <div className="absolute left-4 bottom-4 text-white rounded-md px-4 py-2 text-sm font-medium">
                                     China Imports
                                 </div>
-                                <button className="absolute right-4 bottom-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
-                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M25 8V21C25 21.2652 24.8947 21.5196 24.7071 21.7071C24.5196 21.8946 24.2652 22 24 22C23.7348 22 23.4804 21.8946 23.2929 21.7071C23.1054 21.5196 23 21.2652 23 21V10.4137L8.70751 24.7075C8.51987 24.8951 8.26537 25.0006 8.00001 25.0006C7.73464 25.0006 7.48015 24.8951 7.29251 24.7075C7.10487 24.5199 6.99945 24.2654 6.99945 24C6.99945 23.7346 7.10487 23.4801 7.29251 23.2925L21.5863 9H11C10.7348 9 10.4804 8.89464 10.2929 8.70711C10.1054 8.51957 10 8.26522 10 8C10 7.73478 10.1054 7.48043 10.2929 7.29289C10.4804 7.10536 10.7348 7 11 7H24C24.2652 7 24.5196 7.10536 24.7071 7.29289C24.8947 7.48043 25 7.73478 25 8Z" fill="black" />
-                                    </svg>
-                                </button>
                             </div>
                         </div>
 
                         <div className="w-[35%] flex flex-col gap-6">
                             <div className="relative flex-[1.5] rounded-[12px] overflow-hidden">
-                                <img src="/images/third.jpg" alt="Lastmile Delivery Solutions"
-                                    className="w-full h-full object-cover" />
-                                <div className="absolute left-4 bottom-4  text-white rounded-md px-4 py-2 text-sm font-medium">
+                                <ImageWithFallback
+                                    src="/images/third.jpg"
+                                    alt="Lastmile Delivery Solutions"
+                                    className="w-full h-full object-cover"
+                                />
+                                <div className="absolute left-4 bottom-4 text-white rounded-md px-4 py-2 text-sm font-medium">
                                     Lastmile Delivery Solutions
                                 </div>
-                                <button className="absolute right-4 bottom-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
-                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M25 8V21C25 21.2652 24.8947 21.5196 24.7071 21.7071C24.5196 21.8946 24.2652 22 24 22C23.7348 22 23.4804 21.8946 23.2929 21.7071C23.1054 21.5196 23 21.2652 23 21V10.4137L8.70751 24.7075C8.51987 24.8951 8.26537 25.0006 8.00001 25.0006C7.73464 25.0006 7.48015 24.8951 7.29251 24.7075C7.10487 24.5199 6.99945 24.2654 6.99945 24C6.99945 23.7346 7.10487 23.4801 7.29251 23.2925L21.5863 9H11C10.7348 9 10.4804 8.89464 10.2929 8.70711C10.1054 8.51957 10 8.26522 10 8C10 7.73478 10.1054 7.48043 10.2929 7.29289C10.4804 7.10536 10.7348 7 11 7H24C24.2652 7 24.5196 7.10536 24.7071 7.29289C24.8947 7.48043 25 7.73478 25 8Z" fill="black" />
-                                    </svg>
-                                </button>
                             </div>
 
                             <div className="relative flex-1 rounded-[12px] overflow-hidden">
-                                <img src="/images/fourth.jpg" alt="International Shipping"
-                                    className="w-full h-full object-cover" />
-                                <div className="absolute left-4 bottom-4  text-white rounded-md px-4 py-2 text-sm font-medium">
+                                <ImageWithFallback
+                                    src="/images/fourth.jpg"
+                                    alt="International Shipping"
+                                    className="w-full h-full object-cover"
+                                />
+                                <div className="absolute left-4 bottom-4 text-white rounded-md px-4 py-2 text-sm font-medium">
                                     International Shipping
                                 </div>
-                                <button className="absolute right-4 bottom-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow">
-                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M25 8V21C25 21.2652 24.8947 21.5196 24.7071 21.7071C24.5196 21.8946 24.2652 22 24 22C23.7348 22 23.4804 21.8946 23.2929 21.7071C23.1054 21.5196 23 21.2652 23 21V10.4137L8.70751 24.7075C8.51987 24.8951 8.26537 25.0006 8.00001 25.0006C7.73464 25.0006 7.48015 24.8951 7.29251 24.7075C7.10487 24.5199 6.99945 24.2654 6.99945 24C6.99945 23.7346 7.10487 23.4801 7.29251 23.2925L21.5863 9H11C10.7348 9 10.4804 8.89464 10.2929 8.70711C10.1054 8.51957 10 8.26522 10 8C10 7.73478 10.1054 7.48043 10.2929 7.29289C10.4804 7.10536 10.7348 7 11 7H24C24.2652 7 24.5196 7.10536 24.7071 7.29289C24.8947 7.48043 25 7.73478 25 8Z" fill="black" />
-                                    </svg>
-                                </button>
                             </div>
                         </div>
                     </div>
-
                 </div>
 
-            </div>
-            <div className="w-full flex flex-col items-center mt-12">
-                <button className="flex items-center gap-2 py-[10px] px-[24px] text-[18px] font-medium text-white bg-[#003164] rounded-[12px]">
-                    View all services
-                    <span>
-                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14.93 6.49097L21 12.561L14.93 18.631" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
-                            <path d="M4 12.561H20.83" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
+                <div className="w-full flex flex-col items-center mt-12">
+                    <button className="flex items-center gap-2 py-[10px] px-[24px] text-[18px] font-medium text-white bg-[#003164] rounded-[12px]">
+                        View all services
+                        <span>
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.93 6.49097L21 12.561L14.93 18.631" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M4 12.561H20.83" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
 
-                    </span>
-                </button>
+                        </span>
+                    </button>
 
+                </div>
             </div>
         </div>
     );
