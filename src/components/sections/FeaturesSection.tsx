@@ -84,7 +84,7 @@ const features = [
 
 const FeaturesSection = () => {
     return (
-        <section className="bg-[#FFF8F1] py-16 px-6 sm:px-12 lg:px-20 mt-[600px]">
+        <section className="bg-[#FFF8F1] py-16 px-6 sm:px-12 lg:px-20 mt-18">
             <button className="inline-flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-[#F89938] font-bold px-6 py-3 w-[161px] text-sm mb-6">
                 <svg
                     width="16"

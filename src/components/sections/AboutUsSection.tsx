@@ -1,8 +1,8 @@
 const AboutUsSection = () => {
     return (
-        
-        <section className="relative flex flex-col items-center w-full">
-            <div className="h-[700px] w-full flex flex-col w-full">
+
+        <section className="relative flex flex-col items-center w-full ">
+            <div className=" w-full flex flex-col w-full">
 
 
                 <div className="h-3/3 w-full bg-orange-500 flex flex-col items-start justify-end px-[150px] pb-8 space-y-4 pt-[120px]">
@@ -39,35 +39,32 @@ const AboutUsSection = () => {
 
 
 
-                <div className="absolute left-[50%] top-[150px]">
+                <div className="absolute left-[50%] top-[150px] hidden lg:block">
                     <img
                         src="/images/containers.jpg"
                         alt="Shipping containers"
                         className="w-[588px] h-[392px] object-cover rounded-xl"
                     />
                 </div>
-                <div className="grid grid-rows-2 grid-cols-4 gap-4 px-[150px]  w-full mt-[100px]">
-                    <div className="bg-white shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                <div className="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 sm:px-8 lg:px-[150px] w-full mt-[100px]">
+
+                    <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
                         <img
                             src="/images/flight.jpg"
                             alt="Column 1 Image"
                             className="absolute top-0 left-0 w-full h-full object-cover object-right scale-110"
                         />
                     </div>
-                    <div className="bg-[#FFF8F1] shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <div className="absolute bottom-4 left-4">
-                            <p className="text-4xl font-bold text-gray-800">
-                                20+ Yrs
-                            </p>
-                        </div>
 
+                    <div className="bg-[#FFF8F1] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                        <div className="absolute bottom-4 left-4">
+                            <p className="text-4xl font-bold text-gray-800">20+ Yrs</p>
+                        </div>
                         <div className="absolute top-4 left-4 z-10">
                             <p className="text-lg font-semibold text-gray-800">
-                                Innovative <br />
-                                Logistics
+                                Innovative <br /> Logistics
                             </p>
                         </div>
-
                         <div className="absolute top-0 right-0">
                             <svg width="84" height="102" viewBox="0 0 84 102" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M41.9883 102C18.7836 102 0 83.3956 0 60.4641L84 60.4641C83.9766 83.3956 65.193 102 41.9883 102Z" fill="#FFE7CF" />
@@ -77,28 +74,21 @@ const AboutUsSection = () => {
                         </div>
                     </div>
 
-
-                    <div className="bg-white shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                    <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
                         <img
                             src="/images/delivery.jpg"
-                            alt="Column 1 Image"
+                            alt="Column 3 Image"
                             className="absolute top-0 left-0 w-full h-full object-cover object-right scale-110"
                         />
                     </div>
-                    <div className="bg-[#F1F6FF] shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+
+                    <div className="bg-[#F1F6FF] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
                         <div className="absolute bottom-4 left-4">
-                            <p className="text-4xl font-bold text-gray-800">
-                                15+
-                            </p>
+                            <p className="text-4xl font-bold text-gray-800">15+</p>
                         </div>
-
                         <div className="absolute top-4 left-4 z-10">
-                            <p className="text-lg font-semibold text-gray-800">
-
-                                Experts
-                            </p>
+                            <p className="text-lg font-semibold text-gray-800">Experts</p>
                         </div>
-
                         <div className="absolute top-0 right-0">
                             <svg width="84" height="102" viewBox="0 0 84 102" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M41.9883 102C18.7836 102 0 83.3956 0 60.4641L84 60.4641C83.9766 83.3956 65.193 102 41.9883 102Z" fill="#D7E5FF" />
@@ -108,20 +98,15 @@ const AboutUsSection = () => {
                         </div>
                     </div>
 
-                    <div className="bg-[#F1F6FF] shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                    <div className="bg-[#F1F6FF] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
                         <div className="absolute bottom-4 left-4">
-                            <p className="text-4xl font-bold text-gray-800">
-                                50K+
-                            </p>
+                            <p className="text-4xl font-bold text-gray-800">50K+</p>
                         </div>
-
                         <div className="absolute top-4 left-4 z-10">
                             <p className="text-lg font-semibold text-gray-800">
-                                Happy <br />
-                                Clients
+                                Happy <br /> Clients
                             </p>
                         </div>
-
                         <div className="absolute top-0 right-0">
                             <svg width="84" height="102" viewBox="0 0 84 102" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M41.9883 102C18.7836 102 0 83.3956 0 60.4641L84 60.4641C83.9766 83.3956 65.193 102 41.9883 102Z" fill="#D7E5FF" />
@@ -130,28 +115,24 @@ const AboutUsSection = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className="bg-white shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+
+                    <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
                         <img
                             src="/images/women.jpg"
-                            alt="Column 1 Image"
+                            alt="Column 6 Image"
                             className="absolute top-0 left-0 w-full h-full object-cover object-center"
                         />
                     </div>
 
-                    <div className="bg-[#FFF8F1] shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                    <div className="bg-[#FFF8F1] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
                         <div className="absolute bottom-4 left-4">
-                            <p className="text-4xl font-bold text-gray-800">
-                                2200+
-                            </p>
+                            <p className="text-4xl font-bold text-gray-800">2200+</p>
                         </div>
-
                         <div className="absolute top-4 left-4 z-10">
                             <p className="text-lg font-semibold text-gray-800">
-                                Google <br />
-                                Reviews
+                                Google <br /> Reviews
                             </p>
                         </div>
-
                         <div className="absolute top-0 right-0">
                             <svg width="84" height="102" viewBox="0 0 84 102" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M41.9883 102C18.7836 102 0 83.3956 0 60.4641L84 60.4641C83.9766 83.3956 65.193 102 41.9883 102Z" fill="#FFE7CF" />
@@ -160,13 +141,15 @@ const AboutUsSection = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className="bg-white shadow w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+
+                    <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
                         <img
                             src="/images/star.jpg"
-                            alt="Column 1 Image"
+                            alt="Column 8 Image"
                             className="absolute top-0 left-0 w-full h-full object-cover object-center"
                         />
                     </div>
+
                 </div>
 
             </div>
