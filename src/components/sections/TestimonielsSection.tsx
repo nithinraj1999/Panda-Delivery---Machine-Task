@@ -1,6 +1,3 @@
-// TestimonialsSection.tsx
-import React from "react";
-
 const testimonials = [
   {
     name: "Dianne Russell",
