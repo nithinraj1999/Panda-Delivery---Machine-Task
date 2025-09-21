@@ -1,7 +1,7 @@
 
 export default function Footer() {
     return (
-        <footer className="bg-[#003164] text-white w-full relative min-h-[375px] px-[80px] pt-[68px]">
+        <footer className="bg-[#003164] font-manrope text-white w-full relative min-h-[375px] px-[80px] pt-[68px]">
             <div className=" grid grid-cols-1 md:grid-cols-5 gap-8">
                 <div className="md:col-span-1 space-y-4">
                     <div className="flex items-center gap-2">
@@ -29,7 +29,7 @@ export default function Footer() {
                             <path d="M91.3785 35.7596V47.0786L102.934 41.7778V41.1708V31.1089L91.3756 35.7596H91.3785Z" fill="#F89938" />
                         </svg>
                     </div>
-                    <p className="text-gray-200 text-sm leading-relaxed max-w-xs">
+                    <p className="text-white font-medium text-base leading-relaxed max-w-xs">
                         Delivery Panda is a logistics start up based in Dubai, we make
                         E-commerce logistics simplified and economical.
                     </p>
@@ -37,7 +37,7 @@ export default function Footer() {
 
                 <div >
                     <h3 className="text-base font-semibold mb-4">Company</h3>
-                    <ul className="space-y-2 text-[#6089B5] text-sm">
+                    <ul className="space-y-2 text-[#6089B5] font-normal text-base">
                         <li><a href="#" className="cursor-pointer">Why Panda</a></li>
                         <li><a href="#" className="cursor-pointer">Services</a></li>
                         <li><a href="#" className="cursor-pointer">Track Shipment</a></li>
@@ -47,7 +47,7 @@ export default function Footer() {
 
                 <div>
                     <h3 className="text-base font-semibold mb-4">Our Services</h3>
-                    <ul className="space-y-2 text-[#6089B5] text-sm">
+                    <ul className="space-y-2 text-[#6089B5] font-normal text-base">
                         <li><a href="#" className="cursor-pointer">E commerce Warehousing</a></li>
                         <li><a href="#" className="cursor-pointer">China Imports</a></li>
                         <li><a href="#" className="cursor-pointer">Lastmile Delivery Solutions</a></li>
@@ -57,7 +57,7 @@ export default function Footer() {
 
                 <div>
                     <h3 className="text-base font-semibold mb-4">Resources</h3>
-                    <ul className="space-y-2 text-[#6089B5] text-sm">
+                    <ul className="space-y-2 text-[#6089B5] font-normal text-base">
                         <li><a href="#" className="cursor-pointer">Blog</a></li>
                         <li><a href="#" className="cursor-pointer">Project Cargo</a></li>
                         <li><a href="#" className="cursor-pointer">Custom Clearance</a></li>
@@ -67,7 +67,7 @@ export default function Footer() {
 
                 <div>
                     <h3 className="text-base font-semibold mb-4">Socials</h3>
-                    <ul className="space-y-2 text-[#6089B5] text-sm">
+                    <ul className="space-y-2 text-[#6089B5] font-normal text-base">
                         <li><a href="#" className="cursor-pointer">Facebook</a></li>
                         <li><a href="#" className="cursor-pointer">Instagram</a></li>
                         <li><a href="#" className="cursor-pointer">X</a></li>
@@ -76,7 +76,7 @@ export default function Footer() {
                 </div>
             </div>
 
-<div className="absolute left-0 w-full border-t border-white/20 h-[46px] pt-4 text-center text-[#6089B5] text-sm
+<div className="absolute font-normal left-0 w-full border-t border-white/20 h-[46px] pt-4 text-center text-[#6089B5] text-sm
                 md:top-[298px] md:bottom-auto">
   © Copyright Delivery Panda 2024 · Designed By Hoztox Technologies
 </div>
