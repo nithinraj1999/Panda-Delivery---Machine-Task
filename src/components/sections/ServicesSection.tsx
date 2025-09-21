@@ -31,7 +31,7 @@ const ServicesSection = () => {
                         </p>
                     </div>
 
-                    <div className="flex-1 flex flex-col items-center">
+                    <div className="flex-1 flex flex-col items-center hidden xl:block">
                         <div className="absolute left-[964.03px] ">
                             <svg width="39" height="34" viewBox="0 0 39 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22.0594 24.3851C23.9395 23.6969 25.2375 22.5213 24.9586 21.7594C24.6797 20.9975 22.9295 20.9377 21.0494 21.6259C19.1693 22.3141 17.8714 23.4896 18.1503 24.2516C18.4292 25.0135 20.1794 25.0733 22.0594 24.3851Z" fill="#003164" />

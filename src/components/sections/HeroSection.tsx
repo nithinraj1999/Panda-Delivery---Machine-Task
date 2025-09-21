@@ -1,7 +1,9 @@
+import React from "react";
 
 const HeroSection = () => {
     return (
-        <section className="min-h-screen bg-[#FFF8F1] flex flex-col lg:flex-row relative pt-24 ">
+        <section className="min-h-screen bg-[#FFF8F1] flex flex-col lg:flex-row relative pt-24">
+            {/* Left Content */}
             <div className="flex-1 flex flex-col justify-center px-6 sm:px-12 lg:px-20 pt-24 lg:pt-0">
                 <button className="mb-6 bg-[#F89938] w-full sm:w-[224px] h-[44px] rounded-full text-white font-medium text-[14px] flex items-center justify-center">
                     Moving Business Forward
@@ -48,8 +50,10 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className="flex-1 relative mt-12  ">
-                <div className="absolute top-[-20%] right-[5%] w-[20%]  h-auto z-40 mr-[50px]">
+            {/* Right Images & SVG */}
+            <div className="flex-1 relative mt-12 lg:mt-0 hidden xl:block ">
+                {/* Hero Top Image */}
+                <div className="absolute -top-[40px] right-5 lg:w-1/5 w-1/3 h-auto z-40">
                     <img
                         src="/images/exportPic.png"
                         alt="Hero Image"
@@ -57,41 +61,41 @@ const HeroSection = () => {
                     />
                 </div>
 
+                {/* Map Base */}
                 <img
                     src="/images/mapbase.svg"
                     alt="Map Base"
-                    className="absolute top-[20%] left-[5%] w-[90%] sm:w-[60%] h-auto z-0"
+                    className="absolute top-1/5 left-5 w-[90%] sm:w-3/5 h-auto z-10"
                 />
 
-                <img
-                    src="/images/pattern-group.png"
-                    alt="Pattern"
-                    className="absolute bottom-0   z-30"
-                />
+                {/* Main SVG */}
+                <div className="relative z-20 flex justify-center lg:justify-start">
+                    <svg className="w-full max-w-lg h-auto" viewBox="0 0 701 589" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        {/* Paste your SVG paths and gradients here */}
+                    </svg>
+                </div>
 
+                {/* Man */}
                 <img
                     src="/images/Man.png"
                     alt="Man"
-                    className="absolute bottom-0 left-45 w-[60%]  h-auto z-30"
+                    className="absolute bottom-0 left-1/4 lg:left-[30%] w-3/5 lg:w-[50%] h-auto z-30"
                 />
 
+                {/* Boxes */}
                 <img
                     src="/images/Boxes.svg"
                     alt="Boxes"
-                    className="absolute top-[40%] right-[30%] w-[15%] h-auto z-20"
+                    className="absolute top-[31%] right-1/3 lg:right-[62%] w-1/6 lg:w-[15%] h-auto z-20"
                 />
 
+                {/* Frame */}
                 <img
                     src="/images/Frame.svg"
                     alt="Frame"
-                    className="absolute top-[60%] right-[35%] w-[15%] h-auto z-20"
+                    className="absolute top-[67%] right-1/6 lg:right-[71%] w-1/3 lg:w-[30%] h-auto z-20"
                 />
-
-                <div className="absolute top-[55%] left-[40%] w-[8%] sm:w-[5%] z-20">
-                </div>
             </div>
-
-
         </section>
     );
 };
