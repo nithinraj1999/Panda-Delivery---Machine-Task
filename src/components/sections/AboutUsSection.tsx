@@ -28,7 +28,7 @@ const AboutUsSection = () => {
                         of Our Achievements
                     </h1>
                 </div>
-                <div className="h-2/3 w-full bg-white flex items-start justify-start px-[150px] pt-6">
+                <div className="font-manrope h-2/3 w-full bg-white flex items-start justify-start px-[150px] pt-6">
                     <p className="text-[#8F9092] font-normal text-base">
                         We offer warehousing and fulfilment service for SMEs, integrated <br />
                         efulfilment with complete visibility of your stock movements<br />

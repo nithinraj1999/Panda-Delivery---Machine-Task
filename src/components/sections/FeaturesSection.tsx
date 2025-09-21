@@ -85,7 +85,7 @@ const features = [
 const FeaturesSection = () => {
     return (
         <section className="bg-[#FFF8F1] py-16 px-6 sm:px-12 lg:px-20 mt-18">
-            <button className="inline-flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-[#F89938] font-bold px-6 py-3 w-[161px] text-sm mb-6">
+            <button className="inline-flex font-atypdisplay font-normal items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-[#F89938]  px-6 py-3 w-[161px] text-sm mb-6">
                 <svg
                     width="16"
                     height="17"
@@ -101,13 +101,13 @@ const FeaturesSection = () => {
                 <span>Our Features</span>
             </button>
 
-            <h2 className="text-3xl font-bold mb-10">Why Panda</h2>
+            <h2 className="text-5xl font-atypdisplay font-semibold mb-10">Why Panda</h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {features.map((feature, idx) => (
                     <div
                         key={idx}
-                        className={`flex flex-col  p-6 rounded-xl  transition cursor-pointer border-1 border-[#8F90923D] ${feature.bg}`}
+                        className={`flex flex-col font-manrope  p-6 rounded-xl  transition cursor-pointer border-1 border-[#8F90923D] ${feature.bg}`}
                     >
                         <div className="flex items-center justify-between mb-4">
                             <div>{feature.icon}</div>
@@ -115,10 +115,10 @@ const FeaturesSection = () => {
                         </div>
 
 
-                        <h3 className={`font-semibold text-lg  ${feature.bg.includes("white") ? "text-gray-900" : "text-white"}`}>
+                        <h3 className={`font-semibold text-lg  ${feature.bg.includes("white") ? "text-[#0C0D13]" : "text-white"}`}>
                             {feature.title}
                         </h3>
-                        <p className={`text-sm  mt-2 ${feature.bg.includes("white") ? "text-gray-500" : "text-white"}`}>
+                        <p className={`text-sm font-normal mt-2 ${feature.bg.includes("white") ? "text-[#5C5D61]" : "text-[#E9EBF8]"}`}>
                             {feature.desc}
                         </p>
                     </div>
