@@ -1,68 +1,62 @@
-import ImageWithFallback from "../Loading/ImageFallBack"
+import ImageWithFallback from "../Loading/ImageFallBack";
+
 const AboutUsSection = () => {
     return (
-
-        <section className="relative flex flex-col items-center w-full ">
-            <div className=" w-full flex flex-col w-full">
-
-
-                <div className="h-3/3 w-full font-atypdisplay  bg-orange-500 flex flex-col items-start justify-end px-[150px] pb-8 space-y-4 pt-[120px]">
-                    <button className="flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA]   text-[#F89938]  px-6 py-3 w-[161px] text-sm">
-                        <svg
-                            width="16"
-                            height="17"
-                            viewBox="0 0 16 17"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M15 4.14294V8.14294C15 8.27555 14.9474 8.40273 14.8536 8.4965C14.7598 8.59027 14.6326 8.64294 14.5 8.64294C14.3674 8.64294 14.2402 8.59027 14.1465 8.4965C14.0527 8.40273 14 8.27555 14 8.14294V5.34982L8.85378 10.4967C8.80735 10.5432 8.7522 10.5801 8.6915 10.6052C8.63081 10.6304 8.56574 10.6433 8.50003 10.6433C8.43433 10.6433 8.36926 10.6304 8.30856 10.6052C8.24786 10.5801 8.19272 10.5432 8.14628 10.4967L6.00003 8.34982L1.85378 12.4967C1.75996 12.5905 1.63272 12.6432 1.50003 12.6432C1.36735 12.6432 1.2401 12.5905 1.14628 12.4967C1.05246 12.4029 0.999756 12.2756 0.999756 12.1429C0.999756 12.0103 1.05246 11.883 1.14628 11.7892L5.64628 7.28919C5.69272 7.24271 5.74786 7.20583 5.80856 7.18066C5.86926 7.1555 5.93433 7.14255 6.00003 7.14255C6.06574 7.14255 6.13081 7.1555 6.1915 7.18066C6.2522 7.20583 6.30735 7.24271 6.35378 7.28919L8.50003 9.43607L13.2932 4.64294H10.5C10.3674 4.64294 10.2402 4.59027 10.1465 4.4965C10.0527 4.40273 10 4.27555 10 4.14294C10 4.01034 10.0527 3.88316 10.1465 3.78939C10.2402 3.69562 10.3674 3.64294 10.5 3.64294H14.5C14.6326 3.64294 14.7598 3.69562 14.8536 3.78939C14.9474 3.88316 15 4.01034 15 4.14294Z"
-                                fill="#F89938"
-                            />
+        <section className="relative flex flex-col items-center w-full">
+            <div className="w-full flex flex-col">
+                <div className="w-full font-atypdisplay bg-orange-500 flex flex-col items-start justify-end
+                        px-6 sm:px-10 md:px-20 lg:px-[150px]
+                        pb-8 pt-24 sm:pt-32 lg:pt-[120px] space-y-4">
+                    <button className="flex items-center justify-center gap-2 rounded-full bg-[#FCF3EA] text-[#F89938] px-4 sm:px-6 py-2 w-[140px] sm:w-[161px] text-sm">
+                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 4.14294V8.14294C15 8.27555 ..." fill="#F89938" />
                         </svg>
                         <span>About Us</span>
                     </button>
 
-                    <h1 className="text-white text-[48px] font-semibold leading-tight">
+                    <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-semibold leading-snug sm:leading-tight lg:leading-tight">
                         Tracking Our Growth <br />
                         Through Key Stats <br />
                         of Our Achievements
                     </h1>
                 </div>
-                <div className="font-manrope h-2/3 w-full bg-white flex items-start justify-start px-[150px] pt-6">
-                    <p className="text-[#8F9092] font-normal text-base">
+
+                <div className="font-manrope w-full bg-white flex flex-col items-start justify-start
+                        px-6 sm:px-10 md:px-20 lg:px-[150px] pt-6">
+                    <p className="text-[#8F9092] font-normal text-sm sm:text-base md:text-lg leading-relaxed">
                         We offer warehousing and fulfilment service for SMEs, integrated <br />
-                        efulfilment with complete visibility of your stock movements<br />
-                        digitally. Cross border cash on delivery service and cheapest<br />
-                        imports rate from China with least delivery lead time.
+                        e-fulfilment with complete visibility of your stock movements<br />
+                        digitally. Cross-border cash on delivery service and cheapest<br />
+                        import rates from China with least delivery lead time.
                     </p>
                 </div>
 
-
-
-                <div className="absolute left-[50%] top-[150px] hidden lg:block">
+                <div className="absolute right-[90px] top-36 hidden 2xl:block">
                     <ImageWithFallback
                         src="/images/containers.jpg"
                         alt="Shipping containers"
-                        className="w-[588px] h-[392px] object-cover rounded-xl"
+                        className="w-[400px] sm:w-[500px] lg:w-[588px] h-auto rounded-xl object-cover"
                     />
                 </div>
-                <div className="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 sm:px-8 lg:px-[150px] w-full mt-[100px]">
 
-                    <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+
+
+                <div className="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 sm:px-8 md:px-12 lg:px-[150px] w-full mt-24">
+
+                    <div className="bg-white shadow w-full h-64 sm:h-72 rounded-2xl relative overflow-hidden">
                         <ImageWithFallback
                             src="/images/flight.jpg"
                             alt="Column 1 Image"
-                            className="absolute top-0 left-0 w-full h-full object-cover object-right scale-110"
+                            className="absolute top-0 left-0 w-full h-full object-cover object-center scale-110"
                         />
                     </div>
 
-                    <div className="bg-[#FFF8F1]  shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <div className="absolute bottom-4 pl-[29px]">
-                            <p className="text-[45px] font-semibold text-gray-800">20+ Yrs</p>
+                    <div className="bg-[#FFF8F1] shadow w-full h-64 sm:h-72 rounded-2xl relative overflow-hidden">
+                        <div className="absolute bottom-4 left-6">
+                            <p className="text-3xl sm:text-4xl md:text-[45px] font-semibold text-gray-800">20+ Yrs</p>
                         </div>
-                        <div className="absolute pt-[26px] pl-[29px] z-10">
-                            <p className="text-[22px] font-normal leading-[27px] text-gray-800">
+                        <div className="absolute top-6 left-6 z-10">
+                            <p className="text-lg sm:text-xl md:text-[22px] font-normal leading-snug text-gray-800">
                                 Innovative <br /> Logistics
                             </p>
                         </div>
@@ -75,20 +69,20 @@ const AboutUsSection = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                    <div className="bg-white shadow w-full h-64 sm:h-72 rounded-2xl relative overflow-hidden">
                         <ImageWithFallback
                             src="/images/delivery.jpg"
                             alt="Column 3 Image"
-                            className="absolute top-0 left-0 w-full h-full object-cover object-right scale-110"
+                            className="absolute top-0 left-0 w-full h-full object-cover object-center scale-110"
                         />
                     </div>
 
-                    <div className="bg-[#F1F6FF] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <div className="absolute bottom-4 pl-[29px]">
-                            <p className="text-[45px] font-semibold text-gray-800">15+</p>
+                    <div className="bg-[#F1F6FF] shadow w-full h-64 sm:h-72 rounded-2xl relative overflow-hidden">
+                        <div className="absolute bottom-4 left-6">
+                            <p className="text-3xl sm:text-4xl md:text-[45px] font-semibold text-gray-800">15+</p>
                         </div>
-                        <div className="absolute pt-[26px] pl-[29px] z-10">
-                            <p className="text-[22px] font-normal text-gray-800">Experts</p>
+                        <div className="absolute top-6 left-6 z-10">
+                            <p className="text-lg sm:text-xl md:text-[22px] font-normal text-gray-800">Experts</p>
                         </div>
                         <div className="absolute top-0 right-0">
                             <svg width="84" height="102" viewBox="0 0 84 102" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -99,12 +93,12 @@ const AboutUsSection = () => {
                         </div>
                     </div>
 
-                    <div className="bg-[#F1F6FF] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <div className="absolute bottom-4 pl-[29px]">
-                            <p className="text-[45px] font-semibold text-gray-800">50K+</p>
+                    <div className="bg-[#F1F6FF] shadow w-full h-64 sm:h-72 rounded-2xl relative overflow-hidden">
+                        <div className="absolute bottom-4 left-6">
+                            <p className="text-3xl sm:text-4xl md:text-[45px] font-semibold text-gray-800">50K+</p>
                         </div>
-                        <div className="absolute pt-[26px] pl-[29px] z-10">
-                            <p className="text-[22px] font-normal text-gray-800">
+                        <div className="absolute top-6 left-6 z-10">
+                            <p className="text-lg sm:text-xl md:text-[22px] font-normal text-gray-800">
                                 Happy <br /> Clients
                             </p>
                         </div>
@@ -117,7 +111,7 @@ const AboutUsSection = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                    <div className="bg-white shadow w-full h-64 sm:h-72 rounded-2xl relative overflow-hidden">
                         <ImageWithFallback
                             src="/images/women.jpg"
                             alt="Column 6 Image"
@@ -125,12 +119,12 @@ const AboutUsSection = () => {
                         />
                     </div>
 
-                    <div className="bg-[#FFF8F1] shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
-                        <div className="absolute bottom-4 pl-[29px]">
-                            <p className="text-[45px] font-semibold text-gray-800">2200+</p>
+                    <div className="bg-[#FFF8F1] shadow w-full h-64 sm:h-72 rounded-2xl relative overflow-hidden">
+                        <div className="absolute bottom-4 left-6">
+                            <p className="text-3xl sm:text-4xl md:text-[45px] font-semibold text-gray-800">2200+</p>
                         </div>
-                        <div className="absolute pt-[26px] pl-[29px] z-10">
-                            <p className="text-[22px] font-normal text-gray-800">
+                        <div className="absolute top-6 left-6 z-10">
+                            <p className="text-lg sm:text-xl md:text-[22px] font-normal text-gray-800">
                                 Google <br /> Reviews
                             </p>
                         </div>
@@ -143,7 +137,7 @@ const AboutUsSection = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white shadow w-full sm:w-[290px] h-[280px] rounded-[24px] relative overflow-hidden">
+                    <div className="bg-white shadow w-full h-64 sm:h-72 rounded-2xl relative overflow-hidden">
                         <ImageWithFallback
                             src="/images/star.jpg"
                             alt="Column 8 Image"
@@ -152,12 +146,9 @@ const AboutUsSection = () => {
                     </div>
 
                 </div>
-
             </div>
-
-
         </section>
-    )
-}
+    );
+};
 
-export default AboutUsSection
+export default AboutUsSection;
